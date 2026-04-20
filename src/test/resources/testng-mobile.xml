@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Mobile Test Suite" parallel="none" verbose="1">
+
+    <parameter name="deviceProfile" value="android-emulator"/>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="com.sdet.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Products and Checkout Tests">
+        <classes>
+            <class name="com.sdet.tests.ProductsTest"/>
+        </classes>
+    </test>
+
+</suite>

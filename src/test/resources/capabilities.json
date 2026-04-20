@@ -1,0 +1,31 @@
+{
+  "android-emulator": {
+    "platformName": "Android",
+    "appium:platformVersion": "13.0",
+    "appium:deviceName": "Pixel_6_API_33",
+    "appium:automationName": "UiAutomator2",
+    "appium:app": "apps/saucelabs-sample.apk",
+    "appium:appPackage": "com.swaglabsmobileapp",
+    "appium:appActivity": "com.swaglabsmobileapp.MainActivity",
+    "appium:noReset": "false",
+    "appium:newCommandTimeout": "120"
+  },
+  "android-real-device": {
+    "platformName": "Android",
+    "appium:platformVersion": "13.0",
+    "appium:deviceName": "Samsung Galaxy S23",
+    "appium:automationName": "UiAutomator2",
+    "appium:app": "apps/saucelabs-sample.apk",
+    "appium:appPackage": "com.swaglabsmobileapp",
+    "appium:appActivity": "com.swaglabsmobileapp.MainActivity",
+    "appium:noReset": "false"
+  },
+  "browserstack-android": {
+    "platformName": "Android",
+    "appium:platformVersion": "13.0",
+    "appium:deviceName": "Samsung Galaxy S23",
+    "appium:automationName": "UiAutomator2",
+    "appium:app": "bs://your-app-hash-here",
+    "bstack:options": "{ project: 'SDET Portfolio', build: 'CI Build', name: 'Mobile Tests' }"
+  }
+}
