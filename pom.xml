@@ -7,7 +7,7 @@
     <groupId>com.sdet</groupId>
     <artifactId>appium-mobile-tests</artifactId>
     <version>1.0.0</version>
-    <n>Appium Mobile Test Framework</n>
+    <name>Appium Mobile Test Framework</name>
     <description>Senior-level Appium mobile automation using Screen Factory pattern</description>
 
     <properties>
